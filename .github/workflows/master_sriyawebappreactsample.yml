@@ -61,4 +61,4 @@ jobs:
           app-name: 'sriyawebappreactsample'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1A8C9B7892D242AD9C1A480DCCC4A313 }}
-          package: .
+          package: release.zip
